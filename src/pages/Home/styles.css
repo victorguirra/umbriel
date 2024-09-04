@@ -1,0 +1,31 @@
+.container {
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+}
+
+.container > img {
+    width:180px;
+    margin-top:30px;
+    border-radius:20px;
+}
+
+.container > button {
+    width:200px;
+    height:40px;
+    background-color: #70a3b3;
+    color:#fff;
+    border-radius:7px;
+    margin-top:30px;
+    border:none;
+    cursor:pointer;
+    outline:none;
+}
+.container > span.message {
+    margin-top:30px;
+    font-size:14px;
+    color:#666666;
+}
