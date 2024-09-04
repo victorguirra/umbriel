@@ -13,7 +13,8 @@ export default defineConfig({
         name: 'Umbriel',
         short_name: 'Umbriel',
         description: 'App para teste de PWA',
-        theme_color: '#ffffff',
+        display: 'standalone',
+        theme_color: '#FFFFFF',
         icons: [
           {
             src: 'umbriel.png',
